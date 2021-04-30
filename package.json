@@ -1,0 +1,32 @@
+{
+  "name": "lsl-element",
+  "version": "0.0.5",
+  "description": "基于element ui 2.0 组合一些常用的组件方便使用",
+  "author": "lvshaoli",       
+  "license": "ISC",   
+  "main": "lib/lsl-element.common.js",           
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-lib": "vue-cli-service build --target lib --name lsl-element --dest lib packages/index.js",
+    "pb": "npm publish"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "element-ui": "2.15.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "vue-loader": "15.9.6"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
