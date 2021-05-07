@@ -1,7 +1,7 @@
 /*
  * @Author: lvshaoli
  * @Date: 2021-04-25 15:41:19
- * @LastEditTime: 2021-04-28 11:46:20
+ * @LastEditTime: 2021-05-07 09:00:07
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \openlayersproj\src\components\common\index.js
@@ -16,6 +16,7 @@ import CommonForm from "./commonForm";
 import Pagination from "./Pagination";
 import SecordLevelMenu from "./secordLevelMenu";
 import SetTable from "./setTable";
+import Markdowneditor from "./markdowneditor/mavon-editor";
 const components = [
     CommonPage,
     Breadcrumb,
@@ -26,7 +27,8 @@ const components = [
     CommonForm,
     Pagination,
     SecordLevelMenu,
-    SetTable
+    SetTable,
+    Markdowneditor
 ];
 
 
@@ -56,5 +58,6 @@ export default {
     Pagination,
     SecordLevelMenu,
     SetTable,
+    Markdowneditor,
     install
 }
